@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    background-color: dodgerblue;
+}
+header{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    text-align: center;
+}
+div{
+    height: 250px;
+    padding: 5px 5px;
+    border: 2.5px solid darkorchid;
+    border-radius: 2px 3px/2px 3px;
+    margin: 2px;
+    text-align: center;
+   
+}
+.left{
+    height: 200px;
+    float: left;
+    padding: 5px 5px;
+    border: 2.5px solid purple;
+    margin-top: calc(50%-50)px;
+    
+}
+.left:hover{
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+.right{
+    height: 200px;
+    float: right;
+    padding: 5px 5px;
+    border: 2.5px solid white;
+    margin-top: calc(50%-50)px;
+}
+.right:hover{
+    transform: scale(0.5);
+    transition-duration: 1s;
+}
+p{
+    /*display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding-top: 80px;
+}
